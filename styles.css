@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    border: solid, 2px, gray;
+    padding: 0.5em;
+    color: #080052;
+    font-weight: 600;
+  }
+
+  h2 {
+    margin: 0.2em;
+    color: #080052;
+  }
+  
+  section {
+    border: solid, 2px, gray;
+    padding: 0.5em;
+    margin-top: 15px;
+  }
+
+  /*Return to this once I've learned how to make things responsive*/
+  .colour-box {
+    display: inline-flex;
+    overflow: auto;
+  }
+
+  .colour-box-1 {
+    width: 240px;
+    min-height: 100px;
+    text-align: center;
+    background-color: #080052;
+    color: #ffffff;
+    margin: 10px 5px;
+  }
+
+  .colour-box-2 {
+    width: 240px;
+    min-height: 100px;
+    text-align: center;
+    background-color: #00523A;
+    color: #ffffff;
+    margin: 10px 5px;
+  }
+
+  .colour-box-3 {
+    width: 240px;
+    min-height: 100px;
+    text-align: center;
+    background-color: #7F6A93;
+    color: #ffffff;
+    margin: 10px 5px;
+  }
+
+  .colour-box-4 {
+    width: 240px;
+    min-height: 100px;
+    text-align: center;
+    background-color: #D6DFFF;
+    color: #000000;
+    margin: 10px 5px;
+  }
+
+  .colour-box-5 {
+    width: 240px;
+    min-height: 100px;
+    text-align: center;
+    background-color: #E3F3F0;
+    color: #000000;
+    margin: 10px 5px;
+  }
+
+  table {
+    border: solid, 2px, #080052;
+  }
+
+  th {
+    text-align: center;
+    background-color: #080052;
+    color: #D6DFFF;
+    text-decoration: none;
+    padding: 0.5em;
+  }
+
+  td {
+    background-color:#E3F3F0;
+    padding: 0.3em 0.5em;
+  }
+  
+  .Roboto-demo {
+    font-family: "Roboto";
+  }
+
+  .Oswald-demo {
+    font-family: "Oswald"
+  }
+
+  .h1-demo {
+    font-family: "Roboto";
+    font-weight: bold;
+    border-style: none;
+    padding: 0 1em;
+  }
+
+   .h2-demo {
+    font-family: "Oswald";
+    border-style: none;
+    font-weight: 300;
+    padding: 0 1em;
+    margin: 0;
+   }
+
+   .p-demo {
+    font-family: "Roboto";
+    color: #080052;
+    padding: 0 1em;
+    margin: 10px;
+   }
